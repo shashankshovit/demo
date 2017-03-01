@@ -6,3 +6,7 @@ gem 'rails', '4.2.6'
 # Use mysql as the database for Active Record
 gem 'pg'
 gem 'tzinfo-data'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+gem 'jbuilder'
+gem 'uglifier'

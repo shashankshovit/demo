@@ -1,0 +1,26 @@
+body {
+	min-width: 360px;
+
+	nav {
+		img {
+		    max-width: 40px;
+		    position: relative;
+		    top: -10px;
+		    left: 10px;
+		    border: 2px solid white;
+		}
+	}
+
+	.container {
+		.row {
+			.panel {
+				.panel-body {
+					img {
+						width: 100%;
+						max-width: 310px;
+					}
+				}
+			}
+		}
+	}
+}
