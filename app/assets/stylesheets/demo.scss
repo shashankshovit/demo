@@ -14,9 +14,8 @@ body {
 	.container {
 		.row {
 			.panel {
-				.panel-heading {
-					cursor: pointer;
-				}
+				.panel-heading { cursor: pointer; }
+				.personal { cursor: default; }
 				.panel-body {
 					img {
 						width: 100%;
