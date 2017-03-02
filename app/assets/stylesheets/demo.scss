@@ -14,7 +14,10 @@ body {
 	.container {
 		.row {
 			.panel {
-				.panel-heading { cursor: pointer; }
+				.panel-heading { 
+					cursor: pointer;
+					text-align: center;
+				}
 				.personal { cursor: default; }
 				.panel-body {
 					img {
