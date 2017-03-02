@@ -14,6 +14,9 @@ body {
 	.container {
 		.row {
 			.panel {
+				.panel-heading {
+					cursor: pointer;
+				}
 				.panel-body {
 					img {
 						width: 100%;
