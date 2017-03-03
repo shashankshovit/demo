@@ -1,52 +1,218 @@
 <section class="container">
+
+	<!-- ----------------------------- PROFILE SECTION -------- ---------------------- -->
+	
 	<article class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
 			<div class="panel panel-primary">
 				<div class="panel-body">
-					<%= image_tag "profile-pic.jpg", class: "img-rounded" %>
+					<!-- ---------- single pic ------- -->
+					<%= image_tag "profile-pic.jpg", alt: "whatsapp profile pic" %>
+
+					<!-- ----------- carousel ------- -->
+					<!-- <div id="profilePic" class="carousel slide center-block">
+					  <ol class="carousel-indicators">
+					    <li data-target="#profilePic" data-slide-to="0" class="active"></li>
+					    <li data-target="#profilePic" data-slide-to="1"></li>
+					  </ol>
+
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <%= image_tag "profile-pic.jpg", alt: "whatsapp profile pic" %>
+					      <div class="carousel-caption">
+					        <p>Pic stolen from whatsapp. Slide next.</p>
+					      </div>
+					    </div>
+
+					    <div class="item">
+					      <%= image_tag "shashank.jpg", alt: "descent pic" %>
+					      <div class="carousel-caption">
+					        <p>Thank God. This is a descent pic.</p>
+					      </div>
+					    </div>
+
+					  </div>
+
+					  <a class="left carousel-control" href="#profilePic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#profilePic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div> -->
 				</div>
 			</div>
 		</div>
+
+		<!-- ------------------------------------------------------------------- -->
+		
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
+			<div class="panel panel-primary personal">
+				<div class="panel-heading personal-heading">
 					<h3 class="panel-title">Personal Dossier</h3>
 				</div>
-				<div class="panel-body">
-					<section class="pull-left">
-						<article class="h4">Name</article>
-						<article class="h4">Contact</article>
-						<article class="h4">&nbsp;</article>
-						<article class="h4">Email</article>
-						<article class="h4">Birthdate</article>
-						<article class="h4">Language</article>
-						<article class="h4">Passport</article>
-						<article class="h4">Address</article>
-						<article class="h4">&nbsp;</article>
+				<div class="panel-body row">
+					<section class="keys col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Name</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Contact</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Date of birth</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Passport</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Address</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-right">Languages</span>
+								</div>
+						</article>
 					</section>
-					<section class="pull-right">
-						<article class="h4">Shashank Shovit</article>
-						<article class="h4">+91 734 890 1688</article>
-						<article class="h4">+91 876 409 7487</article>
-						<article class="h4">shashankshovit@gmail.com</article>
-						<article class="h4">18th Mar, 1992</article>
-						<article class="h4">English, Hindi</article>
-						<article class="h4">L5290485</article>
-						<article class="h4">C-191, KTPS Colony,</article>
-						<article class="h4">Kota, Rajasthan - 324008</article>
+					<section class="values col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">Shashank Shovit</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">+91 734 890 1688</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">+91 876 409 7487</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left"><a href="mailto:shashankshovit@gmail.com?Subject=We are interested in your profile" target="_top">shashankshovit@gmail.com</a></span>
+								</div>
+						</article>
+
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">18th Mar, 1992</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">L5290485</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">C-191, KTPS Colony,</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">Kota, Rajasthan</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">&nbsp;</span>
+								</div>
+						</article>
+						<article class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span class="pull-left">English, Hindi</span>
+								</div>
+						</article>
 					</section>
 				</div>
 			</div>
 		</div>
 	</article>
 
+	<!-- -------------------------------------- OVERVIEW -------------------------- -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#overview">
 					<h3 class="panel-title">Overview</h3>
 				</div>
-				<div class="panel-body">
+				<div class="panel-body panel-collapse collapse" id="overview">
 					<ul>
 						<li>A result-oriented programmer with over 3 years of experience in HTML, CSS, ReactJS, JQuery, JEST & RoR.</li>
 						<li>Currently associated with TCS, Bangalore as Systems Engineer.</li>
@@ -60,114 +226,162 @@
 		</div>
 	</article>
 
+	<!-- --------------------------- TECHNICAL ------------------------------ -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#technical">
 					<h3 class="panel-title">Technical skills</h3>
 				</div>
-				<div class="panel-body">
-					<div class="row">
-						<section class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<article class="pull-right">
-								<div class="">Frontend</div>
-								<div class="">Backend</div>
-								<div class="">Database</div>
-								<div class="">Editors</div>
-								<div class="">Version Control</div>
-								<div class="">Bug/Issue tracking</div>
-								<div class="">Other skills</div>
-								<div class="">&nbsp;</div>
-							</article>
-						</section>
-						<section class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<article class="pull-left">
-								<div class="">ML, CSS, JavaScript, JQuery, ReactJS, JEST</div>
-								<div class="">Ruby on Rails</div>
-								<div class="">MySQL</div>
-								<div class="">Sublime text, Notepad++, Netbeans IDE, Dreamviewer</div>
-								<div class="">Sourcetree (GIT), SVN</div>
-								<div class="">JIRA</div>
-								<div class="">PHP, J2EE (developed college fest websites in these languages), ASP.net (got training while in college), AngularJS (got training)</div>
-							</article>
-						</section>
-					</div>
+				<div class="panel-body panel-collapse collapse" id="technical">
+					<ul class="list-group">
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Frontend</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">HTML, CSS, JavaScript, JQuery, ReactJS, JEST</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Backend</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">Ruby on Rails</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Database</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">MySQL</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Editors</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">Sublime text, Notepad++, Netbeans IDE, Dreamviewer</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Version Control</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">Sourcetree (GIT), SVN</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Bug/Issue tracking</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">JIRA</span>
+							</div>
+						</li>
+						<li class="list-group-item row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+								<span class="pull-right">Other skills</span>
+							</div>
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+								<span class="pull-left">PHP, J2EE (developed college fest websites in these languages), ASP.net (got training while in college), AngularJS (got training)</span>
+							</div>
+						</li>
+					</ul>
+
 				</div>
 			</div>
 		</div>
 	</article>
 
+	<!-- -------------------------------- WORK EX ---------------------------- -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#exp">
 					<h3 class="panel-title">Work experience</h3>
 				</div>
-				<div class="panel-body">
-					<ul class="list-group">
-						<li class="list-group-item panel panel-info">
-							<div class="panel-heading">
-								<h4 class="list-group-item-heading panel-title">Apr 2016 – Currently working: TCS as SE (Staples – US retail)</h4>
-							</div>
-							<div class="panel-body">
-								<p class="list-group-item-text">Working as UI developer interacting directly with client.</p>
-								<p class="list-group-item-text">Technologies used – ReactJS, HTML, CSS.</p>
-								<p class="list-group-item-text">Worked on creating automated unit testing by writing scripts in JEST.</p>
-								<p class="list-group-item-text">Bug fixing after development using appropriate debugging tools.</p>
-							</div>
-						</li>
-						<li class="list-group-item panel panel-info">
-							<div class="panel-heading">
-								<h4 class="list-group-item-heading panel-title">Mar 2014 – Mar 2016: TCS as ASE (Gamification – Internal project)</h4>
-							</div>
-							<div class="panel-body">
-								<p class="list-group-item-text">Product based project developing mini games and gamifying solutions based on client needs.</p>
-								<p class="list-group-item-text">Worked on RoR, HTML, CSS, jQuery for developing end to end solutions.</p>
-								<p class="list-group-item-text">Trained my colleague in HTML, CSS, jQuery alongwith development of 3 mini games.</p>
-								<p class="list-group-item-text">Excelled presentation and delivering it to clients.</p>
-								<p class="list-group-item-text">Worked as graphics designer in absence of graphic designer.</p>
-							</div>
-						</li>
-						<li class="list-group-item panel panel-info">
-							<div class="panel-heading">
-								<h4 class="list-group-item-heading panel-title">Jan 2014 – Mar 2014: TCS as ASE-Trainee</h4>
-							</div>
-							<div class="panel-body">
-								<p class="list-group-item-text">Trained in J2EE including JSP, Servlets.</p>
-								<p class="list-group-item-text">Given a basic introduction of struts and hibernate.</p>
-							</div>
-						</li>
-					</ul>
+				<div class="panel-body panel-collapse collapse" id="exp">
+					<section class="panel panel-info">
+						<article class="panel-heading" data-toggle="collapse" data-target="#staples">
+							<h3 class="panel-title">Apr 2016 – Currently working: TCS as SE (Staples – US retail)</h3>
+						</article>
+						<article class="panel-body panel-collapse collapse" id="staples">
+							<ul>
+								<li>Working as UI developer interacting directly with client.</li>
+								<li>Technologies used – ReactJS, HTML, CSS.</li>
+								<li>Worked on creating automated unit testing by writing scripts in JEST.</li>
+								<li>Bug fixing after development using appropriate debugging tools.</li>
+							</ul>
+						</article>
+					</section>
+
+					<section class="panel panel-info">
+						<article class="panel-heading" data-toggle="collapse" data-target="#gamification">
+							<h3 class="panel-title">Mar 2014 – Mar 2016: TCS as ASE (Gamification – Internal project)</h3>
+						</article>
+						<article class="panel-body panel-collapse collapse" id="gamification">
+							<ul>
+								<li>Product based project developing mini games and gamifying solutions based on client needs.</li>
+								<li>Worked on RoR, HTML, CSS, jQuery for developing end to end solutions.</li>
+								<li>Trained my colleague in HTML, CSS, jQuery alongwith development of 3 mini games.</li>
+								<li>Excelled presentation and delivering it to clients.</li>
+								<li>Worked as graphics designer in absence of graphic designer.</li>
+							</ul>
+						</article>
+					</section>
+
+					<section class="panel panel-info">
+						<article class="panel-heading" data-toggle="collapse" data-target="#training">
+							<h3 class="panel-title">Jan 2014 – Mar 2014: TCS as ASE-Trainee</h3>
+						</article>
+						<article class="panel-body panel-collapse collapse" id="training">
+							<ul>
+								<li>Got trained in J2EE including JSP, Servlets.</li>
+								<li>Learnt introductry struts and hibernate.</li>
+							</ul>
+						</article>
+					</section>
 				</div>
 			</div>
 		</div>
 	</article>
 
+	<!-- ---------------------------------------- RECOGNITIONS ------------------------------ -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#awards">
 					<h3 class="panel-title">Recognitions</h3>
 				</div>
-				<div class="panel-body">
-					<ul class="list-group">
-						<li class="list-group-item">Client appreciation (Staples) for introducing unit testing using JEST.</li>
-						<li class="list-group-item">Customer appreciation (Manufacturing domain) for providing unique and creative ideas for gamification.</li>
-						<li class="list-group-item">Manager appreciation for putting exaustive effort leading to successful workshop organisation.</li>
-						<li class="list-group-item">ILP Kudos award (training) for extra-ordinary performance and helping out associates in learning Java.</li>
+				<div class="panel-body panel-collapse collapse" id="awards">
+					<ul>
+						<li>Client appreciation (Staples) for introducing unit testing using JEST.</li>
+						<li>Customer appreciation (Manufacturing domain) for providing unique and creative ideas for gamification.</li>
+						<li>Manager appreciation for putting exaustive effort leading to successful workshop organisation.</li>
+						<li>ILP Kudos award (training) for extra-ordinary performance and helping out associates in learning J2EE.</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</article>
 
+	<!-- ------------------------------------- CERTIFICATIONS -------------------------- -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#certifications">
 					<h3 class="panel-title">Certifications</h3>
 				</div>
-				<div class="panel-body">
+				<div class="panel-body panel-collapse collapse" id="certifications">
 					<ul class="list-group">
 						<li class="list-group-item">Red Hat Certified System Administrator (130-179-914)</li>
 						<li class="list-group-item">Red Hat Certified System Engineer (130-179-914)</li>
@@ -177,13 +391,15 @@
 		</div>
 	</article>
 
+	<!-- ------------------------------- ACADEMICS ---------------------------------- -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#academic">
 					<h3 class="panel-title">Academic credentials</h3>
 				</div>
-				<div class="panel-body">
+				<div class="panel-body panel-collapse collapse" id="academic">
 					<ul class="list-group">
 						<li class="list-group-item">B.Tech. (Computer Science) from University College of Engineering, Rajasthan Technical University in 2013 with 70.6% marks.</li>
 						<li class="list-group-item">12th (PCM) from St. Johns Sr. Sec. School, Kota (Raj) in 2009 with 83.8% marks.</li>
@@ -194,13 +410,15 @@
 		</div>
 	</article>
 
+	<!-- ---------------------------------- MORE ----------------------------- -->
+
 	<article class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="panel panel-primary">
-				<div class="panel-heading">
+				<div class="panel-heading" data-toggle="collapse" data-target="#more">
 					<h3 class="panel-title">Need more details?</h3>
 				</div>
-				<div class="panel-body">Still Scrolling? Wow! It looks like you are interested in me. Please reach me out at +91 734 890 1688. Or drop me a mail at <a href="mailto:shashankshovit@gmail.com?Subject=We are interested in your profile" target="_top">shashankshovit@gmail.com</a>.</div>
+				<div class="panel-body panel-collapse collapse" id="more">Still Scrolling? Wow! It looks like you are interested in me. Please reach me out at +91 734 890 1688. Or drop me a mail at <a href="mailto:shashankshovit@gmail.com?Subject=We are interested in your profile" target="_top">shashankshovit@gmail.com</a>.</div>
 			</div>
 		</div>
 	</article>

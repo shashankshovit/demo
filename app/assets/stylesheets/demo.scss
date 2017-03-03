@@ -14,13 +14,42 @@ body {
 	.container {
 		.row {
 			.panel {
+				.panel-heading { 
+					cursor: pointer;
+					text-align: center;
+				}
+				.personal-heading { cursor: default; }
 				.panel-body {
 					img {
 						width: 100%;
-						max-width: 310px;
+						max-width: 318px;
+					}
+					.carousel {
+						max-width: 318px;
+						.carousel-caption {
+							background-color: #000000;
+							border-radius: 5px;
+							opacity: 0.3;
+						}
+						.carousel-caption:hover { opacity: 0.6 }
 					}
 				}
+				#technical ul li div:last-child {
+					border-left: 1px solid #337ab7;
+				}
 			}
+			.panel.personal {
+				ul {
+					list-style-image: none;
+					list-style-type: none;
+				}
+				.panel-body section.values article div {
+					border-left: 1px solid #337ab7;
+				}
+			} 
 		}
 	}
+}
+ul {
+	list-style-image: url(asset-path('bullet-arrow-blue.png'));
 }
