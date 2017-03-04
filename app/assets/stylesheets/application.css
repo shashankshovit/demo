@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+.contact-details {
+	font-size: 14px;
+    line-height: 12px;
+    vertical-align: middle;
+    font-weight: 600;
+    position: relative;
+    top: -8px;
+}
+.contact-details td {
+	vertical-align: middle;
+	padding: 0px 3px;
+}
+.contact-details a:link {
+	color: rgb(113, 148, 165);
+}

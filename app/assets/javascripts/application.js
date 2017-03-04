@@ -1,4 +1,4 @@
 jQuery(window).on("load", function(){
-	jQuery('.loader').fadeOut();
+	jQuery('.loader-container').fadeOut();
 	jQuery('.master-container').fadeIn();
 });
