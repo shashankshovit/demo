@@ -11,12 +11,32 @@ body {
 		}
 	}
 
+	.loader-container {
+		margin: auto;
+		text-align: center;
+		color: #337ab7;
+		.loader {
+			margin: auto;
+		    width: 130px;
+		    height: 130px;
+		    border: 15px solid #eeefef;
+		    border-top: 15px solid #61bdd6;
+		    border-bottom: 15px solid #61bdd6;
+		    -webkit-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    border-radius: 50%;
+		    -webkit-animation: page-loading 2s linear infinite;
+		    animation: page-loading 2s linear infinite;
+		}
+	}
+	.master-container { display: none; }
 	.container {
 		.row {
+			position: relative;
 			.panel {
 				.panel-heading { 
 					cursor: pointer;
-					/*text-align: center;*/
+					text-align: center;
 				}
 				.personal-heading { cursor: default; }
 				.panel-body {
@@ -48,8 +68,77 @@ body {
 				}
 			} 
 		}
+		.image-container {
+			-webkit-animation: animate-image 2s ease;
+			animation: animate-image 2s ease;
+		}
+		.details-container {
+			-webkit-animation: animate-details 3s ease;
+			animation: animate-details 3s ease;
+		}
+		.overview-container {
+			-webkit-animation: animate-topic 4s ease;
+			animation: animate-topic 4s ease;
+		}
+		.technical-container {
+			-webkit-animation: animate-topic 4.25s ease;
+			animation: animate-topic 4.25s ease;
+		}
+		.work-container {
+			-webkit-animation: animate-topic 4.5s ease;
+			animation: animate-topic 4.5s ease;
+		}
+		.awards-container {
+			-webkit-animation: animate-topic 4.75s ease;
+			animation: animate-topic 4.75s ease;
+		}
+		.certi-container {
+			-webkit-animation: animate-topic 5s ease;
+			animation: animate-topic 5s ease;
+		}
+		.academics-container {
+			-webkit-animation: animate-topic 5.25s ease;
+			animation: animate-topic 5.25s ease;
+		}
+		.more-container {
+			-webkit-animation: animate-topic 5.5s ease;
+			animation: animate-topic 5.5s ease;
+		}
 	}
 }
 ul {
 	list-style-image: url(asset-path('bullet-arrow-blue.png'));
+}
+
+@-webkit-keyframes page-loading {
+	from { transform: rotate(0deg);}
+	to { transform: rotate(360deg);}
+}
+@keyframes page-loading {
+	from { transform: rotate(0deg);}
+	to { transform: rotate(360deg);}
+}
+@-webkit-keyframes animate-image {
+	from { left: -1000px; }
+	to   { left: 0; }
+}
+@keyframes animate-image {
+	from { left: -1000px; }
+	to   { left: 0; }
+}
+@-webkit-keyframes animate-details {
+	from { left: 1000px; }
+	to   { left: 0; }
+}
+@keyframes animate-details {
+	from { left: 1000px; }
+	to   { left: 0; }
+}
+@-webkit-keyframes animate-topic {
+	from { top: 1000px; }
+	to   { top: 0; }
+}
+@keyframes animate-topic {
+	from { top: 1000px; }
+	to   { top: 0; }
 }
