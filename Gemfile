@@ -10,9 +10,5 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'jbuilder'
 gem 'uglifier'
-
-
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+gem 'pg'
+gem 'rails_12factor'
